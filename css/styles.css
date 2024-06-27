@@ -51,17 +51,22 @@ input {
     
 }
 
+@media screen and (max-width:374px) {
+    .container {
+    max-width: 374px;
+    padding: 0 20px 20px 20px;
+    margin: 0 auto;
+    background-color: #fff;
+    }
+}
+
 .container {
     width: 375px;
     padding: 0 20px 20px 20px;
     margin: 0 auto;
     background-color: #fff;
 }
-@media screen and (max-width:375px){
-    .container {
-    max-width: 375px;
-    }
-}
+
 
 .footer-wrap{
     background-color: #0c0c0c;
