@@ -60,13 +60,14 @@ input {
     }
 }
 
-.container {
+@media screen and (min-width:375px) {
+    .container {
     width: 375px;
     padding: 0 20px 20px 20px;
     margin: 0 auto;
     background-color: #fff;
+    }
 }
-
 
 .footer-wrap{
     background-color: #0c0c0c;
